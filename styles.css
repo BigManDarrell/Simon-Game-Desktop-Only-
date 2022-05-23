@@ -65,7 +65,7 @@ footer {
 
   footer {
     font-size: xx-small;
-    margin-top: 250px;
+    margin-top: 125px;
   }
 
   #level-title {
@@ -75,6 +75,12 @@ footer {
   .btn {
     width: 115px;
     height: 115px;
+  }
+
+  .row {
+
+    padding-top: 3rem;
+
   }
 
 }
