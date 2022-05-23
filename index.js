@@ -14,8 +14,8 @@ function handler() {
     checkAnswer(userClickedPattern.length - 1);
 }
 
-$(document).keydown(function() {
-
+$(document).on('keydown click', function() {
+    
     if(!started) {
         nextSequence();
         started = true;
